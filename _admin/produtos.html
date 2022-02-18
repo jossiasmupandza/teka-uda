@@ -1,0 +1,57 @@
+<!DOCKTYPR html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Produtos | TekaUda</title>
+	<link rel="shortcut icon" href="../_imagens/favcon-tekauda.png" type="image/x-png"/>
+	<link type="text/css" rel="stylesheet" href="_css/estilo-admin.css">
+	<script type="text/javascript" src="../_javascript/ajax.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="cabecalho">
+			<div class="cabecalho-logo">
+				<h1><a href="../index.html" title="ir para loja">TekaUda</a></h1>
+			</div>
+			<div id="perfil">
+				<button id="perfil-btn">Nome do usuario <i class="fa fa-caret-down fa-fw"></i></button>
+				<div id="perfil-dropdown">
+					<a href="perfilUsuario.html">Meu perfil</a>
+					<a href="../index.html">Minha Loja</a>
+					<a href="index.html">Sair</a>
+				</div>
+			</div>
+		</header>
+		<nav class="coluna-nav">
+			<h2>Navegação</h2>
+			<ul>
+				<li><a href="painel-de-controle.html">Painel de Controle</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>
+				<li><a href="clientes.html">Clientes</a></li>
+				<li><a href="produtos.html" class="selecionado">Produtos</a></li>
+				<li><a href="usuarios.html">Gerênciar Usuários</a></li>
+				<li><a href="estatisticas.html">Canal de Comunicação</a></li>
+			</ul>
+		</nav>
+		<div class="conteudo">
+			<div class="directorio">
+				<div class="dir">
+					<h2>Produtos</h2>
+					<p><span><a href="painel-de-controle.html" title="ir ao painel de controle">Principal</a></span> / <a href="produtos.html">Produtos</a></p>
+				</div>
+				<div class="gerir">
+					<!--<input type="button" name="eliminar" id="cEliminar" value="Eliminar">-->
+					<a href="cadastro-produto.html"><input type="button" name="adicionar" id="cAdicionar" value="Adicionar"></a>
+				</div>
+			</div>
+			<div class="tabForm">
+				<div class="cabecalho-tabForm"><legend>Lista de Produtos</legend></div>
+				<div id="listaProd"></div>
+			</div>
+		</div>
+		<footer class="rodape">
+			<p>&copy; Copyright - 2018 - <a href="../quemsomos.html" title="Quem Somos">TekaUda</a> - Todos direitos reservados</p>
+		</footer>
+	</div>
+</body>
+</html>

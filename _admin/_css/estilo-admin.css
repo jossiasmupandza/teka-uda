@@ -1,0 +1,401 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #eee;
+	font-family: Arial;
+	height: max-content;
+}
+
+a {
+	text-decoration: none;
+	color: #0041ff;
+}
+
+fieldset{
+		border:none;
+}
+
+div.container {
+	background: #eee;
+	height:max-content;
+	width:100%;
+	margin:0px;
+}
+
+header.cabecalho {
+	display: block;
+	background: #fff;
+	height: 65px;
+	width: 100%;
+	border-bottom: 1px solid #bbbbbb;
+	box-shadow: 0px -3px 10px black;
+}
+
+div.cabecalho-logo {
+	height: 100%;
+	width: 20%;
+	border-right: 1px solid #eee;
+	text-align: center;
+}
+
+div.cabecalho-logo h1 a{
+    font-family: chiller;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ff9b00;
+	margin-top:10px
+}
+
+/*inicio login Administracao */
+
+
+div#conteudo-longin {
+	display: block;
+	height: 520px;
+	width: 100%;
+	margin-bottom: -15;
+	background: #eee;
+}
+
+div#div-loginAdmin {
+	position: relative;
+    top: 90px;
+    width: 30%;
+    height: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px #000;
+	border-radius: 5px;
+}
+
+div.cabecalho-tabForm {
+	padding: 15px;
+	background: #ff9b00;
+    border: 1px solid #ff9b00;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset#dadosAdmin {
+	border: none;
+}
+
+fieldset#dadosAdmin p {
+	margin: 30px 0;
+}
+
+input#cUsuario {
+  height: 34px;
+    width: 80%;
+    margin: 5px 0px;	
+}
+
+input#cUsuario, input#cSenha {
+	height: 34px;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+input#acessar, input#cEliminar, input#cAdicionar, input#cCadastrarU, input#cCancelar {
+	padding: 7px 20px;
+    float: right;
+    background: #ff9b00;
+    border-radius: 5px;
+    border: 1px outset #ff9b00;
+}
+
+input#acessar:hover, input#cEliminar:hover, input#cAdicionar:hover, input#cCadastrarU:hover, input#cCancelar:hover {
+	background: #ff9b0085;
+    border: 1px outset #ff9b0085;
+}
+
+input#acessar:active, input#cEliminar:active, input#cAdicionar:active, input#cCadastrarU:active, input#cCancelar:active {
+position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+footer#rodape-longin {
+	display: block;
+    height: 13%;
+    width: 100%;
+    text-align: center;
+}
+
+/* fim login do administrador*/
+	
+/*inicio painel de controle*/
+
+div#perfil {
+	float: right;
+	height: 100%;
+	width: 20%;
+	border-left: 1px solid #eee;
+	text-align: center;
+	margin-top: -65px;
+	position: relative;
+	display: inline-block;
+}
+
+button#perfil-btn {
+	height: 100%;
+	width: 100%;
+	border-style: none;
+	font-size: 13pt;
+	cursor: pointer;
+    padding: 20px;
+	color: #606060c4;
+	background: #fff;
+}
+
+div#perfil:hover button#perfil-btn {
+	background: #eeeeee;
+}
+
+div#perfil:hover div#perfil-dropdown {
+	display: block;
+}
+
+div#perfil-dropdown {
+	height: 185%;
+    width: 54%;
+    position: absolute;
+	display: none;
+    background: #fff;
+    box-shadow: 0px 2px 4px #000;
+	border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+div#perfil-dropdown a {
+    display: block;
+    padding-top: 8%;
+    height: 22%;
+	color: #606060c4;
+}
+
+div#perfil-dropdown a:hover {
+		background: #eeeeee;
+}
+
+nav.coluna-nav {
+	float: left;
+	width: 20%;
+	height: 796px;
+	background-color: #606060;
+	color: #ff9b00;
+}
+
+nav.coluna-nav ul {
+	list-style: none;
+	width: 84%;
+	
+}
+
+nav.coluna-nav li a {
+    display: block;
+	margin-left: -40px;
+    height: 50px;
+    width: 100%;
+    padding: 30px 10px 0px 30px;
+	color: #ff9b00;
+}
+	
+nav.coluna-nav li a:hover {
+	background: #949494;	
+}
+
+a.selecionado {
+	background: #d4d4d4;
+}
+
+div.conteudo {
+	display: block;
+	float: right;
+	width: 80%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+div.directorio {
+	width: 100%;
+    height: 70px;
+	border-bottom: 1px solid #d5d3d1;
+}
+div.dir {
+	display: block;
+	float: left;
+	height: 100%;
+	width: 50%;
+	padding-left: 21px;
+}
+
+div.dir a {
+	color: #ff9b00;
+}
+
+div.dir p {
+	float: right;
+    margin-top: -40px;
+    margin-right: 20px;
+    font-size: 11pt;
+}
+
+div.dir span a {
+	color:#9c9b99;
+}
+
+div.gerir {
+	display: block;
+	float: right;
+	height: 100%;
+	width: 30%;
+}
+
+/*hover e active estao acima*/
+ input#cEliminar, input#cAdicionar { 
+	margin: 17px 15px;
+	padding: 7px 20px;
+    background: #ff9b00;
+    border-radius: 5px;
+    border: 1px outset #ff9b00;
+}
+
+div.tabForm {
+	width: 80%;
+    margin: 35px auto;
+    height: 550px;
+    background: yellow;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px #000;
+	border-radius: 5px;
+	overflow-x: auto;
+    overflow-y: auto;
+}
+
+div.corpo-tabForm {
+	width: 100%;
+    height: 94%;
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+	overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+div#totPedidos, div#valTotPedidos, div#totClientes, div#clientesOnline{
+    width: 23%;
+    height: 155px;
+    border-radius: 5px;
+    border: 1px solid #333232;
+	background: #fff;
+}
+
+div#totPedidos {
+    margin-left: 11%;
+    margin-top: 5%;
+}
+
+div#valTotPedidos {
+    margin-left: 63%;
+    margin-top: -158px
+}
+
+div#totClientes {
+    margin-left: 11%;
+    margin-top: 55px;
+}
+
+div#clientesOnline {
+    margin-left: 63%;
+    margin-top: -157px;
+}
+
+div#ultPedidos {
+	width: 68%;
+    height: 615px;
+    margin-top: -67%;
+    margin-left: 29%;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #fff;	
+}
+
+/*inicio pedidos*/
+div#listaPed {
+	width: 85%;
+    height: 615px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+/*inicio clientes*/
+
+div#listaClientes {
+	float: left;
+    height: 500px;
+    width: 93%;
+    margin: 30px 33px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+div#canalCom {
+	float: right;
+	height: 500px;
+	width: 35%;
+	margin: 30px;
+	border-radius: 5px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+/*inicio gerenciar usuarios*/
+div#listaUsu {
+	height: 500px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+form#cCadastroU, form#cCadastroP {
+    padding-top: 18px;
+    padding-left: 50px;
+	padding-right:20px;
+}
+
+input#cNomeCad, input#cMailCad,input#cSenhaCad, input#cConSenha, input#cDescricao, input#cPreco {
+	height: 30px;
+    width: 80%;
+    margin-top: 5px;
+}
+input#cCadastrarU, input#cCancelar{
+	margin-top: 20px;
+    margin-right: 12px;
+}
+
+/*inicio estatisticas*/
+div#est {
+	height: 100%;
+	width: 100%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+footer.rodape {
+	display: block;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 8%;
+    border-top: 1px solid #d8d7d7;
+}
+
+
+

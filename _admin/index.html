@@ -1,0 +1,41 @@
+<!DOCKTYPR html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Administração | TekaUda</title>
+	<link rel="shortcut icon" href="../_imagens/favcon-tekauda.png" type="image/x-png"/>
+	<link type="text/css" rel="stylesheet" href="_css/estilo-admin.css">
+	<script type="text/javascript" src="../_javascript/validacoes.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="cabecalho">
+			<div class="cabecalho-logo">
+				<h1><a href="../index.html" title="ir para loja">TekaUda</a></h1>
+			</div>
+		</header>
+		<div id="conteudo-longin">
+			<div id="div-loginAdmin">
+				<div class="cabecalho-tabForm"><legend>Digite os Seus dados de acesso.</legend></div>
+				<form id="loginAdmin" method="POST" action="painel-de-controle.html" onsubmit="return validarLoginAdmin()">
+					<fieldset id="dadosAdmin">
+						<p>
+							<label for="cUsuario">Usuário</label><br>
+							<input type="text" name="tUsuario" id="cUsuario" size="30" placeholder="Seu nome de usuario">
+						</p>
+						<p>
+							<label for="cSenha">Senha</label><br>
+							<input type="password" name="tSenha" id="cSenha" size="30" placeholder="Sua senha"><br>
+							<a href="../recuperar_senha.html" title="clique para recuperar senha">Esqueceu a sua senha?</a>
+						</p>
+						<input type="submit" id="acessar" value="Acessar"> 
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<footer id="rodape-longin">
+			<p>&copy; Copyright - 2018 - <a href="../quemsomos.html" title="Quem Somos">TekaUda</a> - Todos direitos reservados</p>
+		</footer>
+	</div>
+</body>
+</html>

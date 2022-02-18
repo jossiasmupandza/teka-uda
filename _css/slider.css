@@ -1,0 +1,69 @@
+/*CSS DO SLIDER AQUI*/
+div#slide-home {
+	width: 100%;
+	height: 550px;
+	border: 1px solid #ff9b00;
+	position: relative;
+}
+
+figure.slides {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+figcaption.slides-legenda {
+	width: 55%;
+    height: 28.3%;
+    position: absolute;
+    top: 69%;
+    left: -3.4%;
+    z-index: 1;
+    padding-left: 3%;
+    border-right: 5px solid orange;
+    background: rgba(193, 193, 193, 0.6);
+}
+
+figcaption.slides-legenda h2 {
+	color: white;
+    font-family: Comic Sans MS;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9%;
+}
+
+div#slide-home img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    top: -15px;
+    left: -40px;
+}
+
+button.btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px; 
+	top: 200px;
+	background: #ff9b00;
+	color: white;
+	font-size: 20 px;
+}
+
+button#btn2 {
+	position: relative;
+	float: right;
+}
+
+button#btn1:hover {
+	box-shadow: 10px 0px 20px #000;
+	color: #000;
+}
+
+button#btn2:hover {
+	box-shadow: -10px 0px 20px #000;
+	color: #000;
+}

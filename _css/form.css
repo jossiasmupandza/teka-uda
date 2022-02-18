@@ -1,0 +1,207 @@
+/*inicio do estilo global*/
+#linha_vertival {
+    float: left;
+    margin: 2% 1%;
+    width: 1px;
+    height: 1000px;
+    background: #dedede;
+}
+
+input {
+	width: 460px;
+    height: 35px;
+    border-radius: 5px;
+    background: #dedede;
+    border-style: none;
+    padding-left: 10px;
+}
+
+button{
+	width: 460px;
+    height: 50px;
+    padding: 9px;
+	border-style: none;
+	border-radius: 15px;
+	background: #02028f;
+	color: #ffffff;
+}
+
+input#cCancelarC:active, input#cEnviarC:active, input#cCadastrarE:active ,input#cEntrarE:active, #cEnviar:active {
+	position: relative;
+	top: 2px;
+	left: 2px;
+}
+
+button#cButCadE, button#cButAcesE {
+	background: #e70135;	
+}
+
+input#cCadastrarF {
+	background: #02028f;
+	color: #ffffff;
+}
+
+input#cCadastrarE, input#cEntrarE {
+	background: #e70135;
+	color: #ffffff;
+}
+
+select {
+	width: 460px;
+    height: 35px;
+    background: #dedede;
+    border-radius: 5px;
+    border-style: none;
+    color: gray;
+}
+div.directorio a {
+	color: #000000;
+}
+
+div.icone_RedesSocias {
+    float: left;
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+p.msgBut {
+	    margin-top: 7px;
+}
+
+fieldset {
+	border-color: transparent;
+}
+
+p a {
+	color: blue;
+}
+
+fieldset.cNovTerm input {
+    width: 20px;
+    height: 15px;
+    margin: 4px -3px;
+}
+
+/*estilo hover*/
+
+button#cButCadE:hover, button#cButAcesE:hover {
+	background: #ff0039cc;	
+}
+
+input#cCadastrarE:hover ,input#cEntrarE:hover {
+	background: #ff0039cc;
+	color: #000000;
+}
+
+/*fim global*/
+
+/*inicio cadastrar*/
+.cadastrar {
+	float: left;
+	width: 48%; 
+	height: 990px;
+	margin:-3px 0px 150px 0px;
+}
+
+#cont_cadastrar {
+	width: 90%;
+    height: 95%;
+    margin: auto;
+}
+
+div#cont_cadastrar h1{
+	text-align: center;
+    margin: 50px 0;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+	font-weight: 500;
+}
+/*fim cadastrar*/
+
+
+/*inicio entrar*/
+.entrar {
+	float: right;
+	width: 48%; 
+	height: 100%;
+	margin:-3px 0;
+}
+
+#cont_entrar {
+    width: 90%;
+    height: 95%;
+    margin: auto;
+}
+
+div#cont_entrar h1 {
+	text-align: center;
+    margin: 50px 0;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 30px;
+	font-weight: 500;
+}
+/*fim entrar*/
+
+/*inicio formulario de contacto*/
+div.form_contacto {
+	height: max-content;
+    margin: auto;
+    width: 960px;
+}
+
+div.form_contacto legend {
+	text-align: center;
+	font-size: 30px;
+}
+
+div.form_contacto hr {
+	border: 1px solid #ff9b00;
+}
+
+input#cEnviarC, input#cCancelarC {
+	background: #f4ac26;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid orange;
+	width: 460px;
+}
+
+textarea#cMensagem {
+	color: #ffffff;
+	border-radius: 5px;
+    background: #dedede;
+    padding-left: 10px;
+}
+
+input#cEnviarC:hover {
+	background:#c78001;
+	color: #000000;
+	border: 2px double #c78001;
+}
+
+input#cCancelarC:hover {
+	background:#c78001;
+	color: #000000;
+	border: 2px double #c78001;
+}
+
+/*inicio recuperar senha*/
+form#form_RecSenha p {
+	margin-left: 232px;
+}
+
+div#recSenha {
+    height: 390px;
+    padding: 70px;	
+}
+
+#cEnviar {
+	background: #ff0039;
+}
+
+#cEnviar:hover {
+	background: #b1072d;
+}
+

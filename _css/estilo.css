@@ -1,0 +1,504 @@
+/*inicio estilo golobal*/
+body {
+	margin: 0;
+	padding: 0;
+	background-image: #fff;
+	color: #333;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+    letter-spacing: 0.5px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+span {
+	color: #ff9b00
+}
+
+/*inicio cabecalho*/
+.cabecalho {
+    width: 100%;
+    height: 90px;
+	background: #fff;
+    padding-top: 107px;
+    margin: 0;
+	border-bottom: 2px solid #ff9b00;
+}
+
+.cont_cabecalho {
+	width: 1152px;
+	height: 100%;
+	margin:-5px auto;
+	text-align: left;
+}
+
+.cont_cabecalho h1 {
+	float: left;
+}
+
+/*fim cabecalho*/
+
+/*inicio barra de navegacao*/
+.barra_nav {
+    width: 100%;
+    height: 90px;
+    background: #ffffff;
+    border-bottom: 2px solid #ff9b00;
+    font-size: 20px;
+    padding-top: 5px;
+    position: fixed;
+	z-index: 10;
+	
+}
+
+/*inicio conteudo da barra de navegacao*/
+.cont_barra_nav {
+	width: 1152px;
+	height: 100%;
+	margin: 0 auto;
+	border-top: 5px solid #ff9b00;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+
+.cont_barra_nav p a{
+	float: left;
+    font-family: chiller;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ff9b00;
+}
+
+.cont_barra_nav ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+	padding: 25px 0 25 0;
+}
+
+.cont_barra_nav li {
+	display: inline;
+}
+
+.cont_barra_nav li a{
+	margin: 0px 2px;
+	border-radius: 37px;
+    padding: 15px 13px 15px 13px;
+	border: 1px solid transparent;
+}
+
+.cont_barra_nav li a:hover {
+	display: inline;
+    margin: 0px 2px;
+    border: 1px solid #ff9b00;
+    border-radius: 37px;
+    padding: 15px 13px 15px 13px;
+	color: #ff9b00;
+}
+
+/*fim conteudo da barra de navegacao*/
+/*fim barra de navegacao*/
+
+/*inicio container*/
+.container {
+	width: 1152px;
+    height: max-content;
+    margin: 0 auto 0px auto;
+    padding: 97px 0 0 0;
+    background: #ffffff;
+}
+
+.slide {
+	width: 100%;
+	height: 550px;
+	background-image: url("../_imagens/background_cardapio.jpg"); 
+}
+
+.slide h1 {
+	text-align: center;
+    font-size: 50px;
+    color: #fff;
+    padding: 60px;
+    margin: 0
+}
+
+.conteudo{
+	width: 100%;
+	height: 1000px;
+}
+
+/*fim container*/
+
+/*inicio directorio*/
+div.directorio {
+	width: 100%;
+	height: 50px;
+    margin-top: -97px;
+}
+
+div.cont_directorio {
+	width:50%;
+	height: 100%;
+    padding: 1 48px;
+}
+/*fim directorio*/
+
+/*inicio rodape*/
+.rodape {
+	clear: both;
+	width: 100%;
+	height: 65%;
+	background: #ffffff;
+	border-top: 4px solid #ff9b00;
+	
+}
+
+/*inicio conteudo do rodape*/
+.cont_rodape {
+	width: 1152px;
+	height: 100%;
+	margin:0 auto;
+	
+}
+
+.cont_rodape ul {
+	list-style: none;
+}
+
+.cont_rodape li {
+	margin: 2px;
+    text-align: left;
+    padding-left: 10px;
+}
+.cont_rodape li a {
+	border-left:3px solid #ffffff;
+	padding-left: 10px;
+}
+	
+.cont_rodape li a:hover {
+	color: #ff9b00;
+	border-left:3px solid #ff9b00;
+}
+
+.cont_rodape hr {
+	border: 1px solid #c7cdc7;
+}
+
+.cont_rodape h3 {
+	color: #ff9b00;
+}	
+
+.nav_site {
+		float: left;
+		width: 25%;
+		height: 85%;
+}
+
+.cont_nav_site {
+	padding: 0 20px;
+    height: auto;
+}
+
+.cardapio_rodape {
+	float: left;
+	width: 50%;
+	height: 85%;
+}
+
+.cont_cardapio_rodape {
+	padding: 0 20px;
+    height: auto;
+}
+
+ul.listaCardapio1 {
+	float: left;
+    width: 320px;
+    padding-left: 0px;
+}
+
+ul.listaCardapio2 {
+	width: 200px;
+    float: left;
+    padding-left: 0px;
+    margin-left: 15px;
+}
+
+.entre_contacto {
+	float: left;
+	width: 25%;
+	height: 85%;
+}
+
+.cont_entre_contacto {
+	padding: 0 20px;
+    height: auto;
+}
+
+.barra_rodape {
+	clear: both;
+	background: #ff9b00;
+	width: 100%;
+	height: 15%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.cont_barra_rodape {
+	width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.cont_entre_contacto ul {
+	list-style: none;
+	margin: 0;
+}
+
+div.cont_entre_contacto li {
+	display: inline;
+}
+
+div.cont_entre_contacto li a {
+	color: #ff9b00;
+	font-size: 35px;
+}
+/*fim conteudo do rodape*/
+
+/*fim rodape*/
+
+/*fim estilo global*/
+
+/*inicio do estilo da acrea cardapio*/
+
+figure.foto_legenda {
+	float: left;
+	border: 10px solid #ffffff;
+    border-radius: 10px;
+    position: static;
+    width: 280px;
+    height: 530px;
+}
+
+figure.foto_legenda:hover {
+	border: 10px solid #ff9b00;
+	background: #ff9b00;
+	color: #ffffff;
+}
+
+figure.foto_legenda img {
+	height: 50%;
+	width: 100%;
+	border-radius: 10px;
+}
+
+figure.foto_legenda p{
+	height: 85px;
+}
+
+figure.foto_legenda figcaption {
+	text-align: center;
+	padding: 10px;
+}
+
+figure.foto_legenda figcaption h3 {
+	color: #ff9b00;
+	font-size: 20px;
+	margin: -3px auto 10px auto;
+}
+
+figure.foto_legenda figcaption h4 {
+	color: #ff9b00;
+	font-size: 20px;
+	border: 1px solid #ff9b00;
+	border-radius: 30px;
+	padding: 11px 63px;
+}
+
+figure.foto_legenda figcaption h4 a {
+	color: #ff9b00;
+}
+
+/*inicio de efeitos hover*/
+figure.foto_legenda:hover h3 {
+	color: #ffffff;
+}
+
+figure.foto_legenda:hover h4 {
+	border:1px solid #ffffff;
+}
+
+figure.foto_legenda:hover h4 a{
+	color: #ffffff;
+}
+
+figure.foto_legenda h4:hover {
+	background:#ffffff;
+}
+
+figure.foto_legenda h4:hover a{
+	color: #ff9b00;
+}
+/*fim de efeitos hover*/
+
+/*fim estilo do cardapio
+
+/*inicio do estilo da area quem somos*/
+div.conteudo_texto {
+		width:100%;
+		height: 1350px;
+}
+div.conteudo_texto p {
+	text-align: justify;
+	line-height: 20px;
+}
+
+div.conteudo_texto h2 {
+	color: #ff9b00;
+	font-weight:100;
+}
+
+div.conteudo_texto a {
+		color: blue;
+}
+
+figure.foto_legenda_2:hover {
+	box-shadow: 1px 1px 4px black;
+	padding:10px
+}
+
+img.logo_tekauda {
+	border: 1px solid ff9b00;
+	border-top-right-radius: 10px ff9b00;
+}
+
+div#texto_lat_esq {
+	float: left;
+    height: 500px;
+    width: 55%;
+    padding: 10px;
+}
+
+div#foto_lat_dir {
+	float: right;
+    height: 420px;
+    width: 40%;
+    padding-top: 45px;
+}
+
+div#foto_lat_esq {
+	float: left;
+	height:auto;
+	width:auto;
+	padding-top:9px;
+
+}
+
+div#texto_lat_dir {
+	clear: both;
+    float: right;
+    height: auto;
+    width: 55%;
+}
+/*fim do estilo da area quem somos*/
+
+/*inicio da area Home*/
+div.categoria {
+    height: 120px;
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #ff9b00;
+}
+
+div.cont_categoria {
+	text-align: center;
+}
+
+div.cont_categoria h2 {
+	color: ff9b00;
+	font-weight: 500;
+}
+
+div.cont_categoria ul {
+	list-style: none;
+	margin: 48px 0;
+}
+
+div.cont_categoria li {
+	display: inline;
+}
+
+div.cont_categoria li a{
+    margin: 0 2px;
+    border-radius: 37px;
+    padding: 15px 40px 15px 40px;
+    border: 1px solid #ff9b00;
+}
+
+div.cont_categoria li a:hover {
+	color: #fff;
+	background: #ff9b00;
+}
+
+a.selecionado {
+	color: #fff;
+	background: #ff9b00;
+}
+
+div.pratosHome {
+	height: 520px;
+	text-align: center;
+	padding-bottom: 200px;
+}
+div#contHome {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+div#contHome h2, div.pratosHome h2  {
+	color: #ff9b00;
+	font-weight: 100;
+}
+
+figure.foto_legenda_3 {
+    position: relative;
+    height: 320px;
+    width: 865px;
+    margin-left: 165px;
+    margin-top: 40px;
+	line-height: 20px;
+}
+
+
+figure.foto_legenda_3 img {
+	height: 100%;
+    width: 45%;
+    position: absolute;
+    left: 0px;
+}
+
+figure.foto_legenda_3 figcaption {
+	position: absolute;
+	width:50%;
+	height: 100%;
+	right: 0px;
+	
+}
+
+figure.foto_legenda_3 h3 {
+	color: #ff9b00;
+}
+
+
+	
+	
+	
+/*fim da area Home*/
+ 
+
+
+	

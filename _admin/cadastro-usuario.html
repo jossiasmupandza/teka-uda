@@ -1,0 +1,87 @@
+<!DOCKTYPR html>
+<html lang="pt">
+<head>
+	<meta charset="UTF-8">
+	<title>Novo Usuário | TekaUda</title>
+	<link rel="shortcut icon" href="../_imagens/favcon-tekauda.png" type="image/x-png"/>
+	<link type="text/css" rel="stylesheet" href="_css/estilo-admin.css">
+	<script type="text/javascript" src="../_javascript/validacoes.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header class="cabecalho">
+			<div class="cabecalho-logo">
+				<h1><a href="../index.html" title="ir para loja">TekaUda</a></h1>
+			</div>
+			<div id="perfil">
+				<button id="perfil-btn">Nome do usuario <i class="fa fa-caret-down fa-fw"></i></button>
+				<div id="perfil-dropdown">
+					<a href="perfilUsuario.html">Meu perfil</a>
+					<a href="../index.html">Minha Loja</a>
+					<a href="index.html">Sair</a>
+				</div>
+			</div>
+		</header>
+		<nav class="coluna-nav">
+			<h2>Navegação</h2>
+			<ul>
+				<li><a href="painel-de-controle.html" >Painel de Controle</a></li>
+				<li><a href="pedidos.html">Pedidos</a></li>
+				<li><a href="clientes.html">Clientes</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="usuarios.html"class="selecionado">Gerênciar Usuários</a></li>
+				<li><a href="estatisticas.html">Canal de Comunicação</a></li>
+			</ul>
+		</nav>
+		<div class="conteudo">
+			<div class="directorio">
+				<div class="dir">
+					<h2>Usuários</h2>
+					<p>
+						<span><a href="painel-de-controle.html" title="ir ao painel de controle">Principal</a></span> / <span><a href="usuarios.html">Usuários</a></span> / <a href="cadastro-usuario.html">Novo Usuário</a> 
+					</p>
+				</div>
+				
+				
+				<div class="gerir">
+					<a href="usuarios.html"><input type="button" name="cancelar" id="cCancelar" value="Cancelar"></a>
+					<input type="submit" form="cCadastroU" name="tCadastrar" id="cCadastrarU" value="Cadastrar">
+				</div>
+			</div>
+			
+			
+			
+			<div class="tabForm">
+				<div class="cabecalho-tabForm"><legend>Novo Usuário</legend></div>
+				<div class="corpo-tabForm">
+					<form name="tCadastroU" id="cCadastroU" method="POST" action="../_php/inserirDadosBD.php?acao=cadAdmin" onsubmit="return validarFormCadUsuarios()">
+					
+						<p>
+							<label for="cNomeCad">Nome Completo </label><br>
+							<input type="text" name="NomeCad" id="cNomeCad" size="30" maxlength="40" placeholder="Seu nome">
+						</p>
+						<p>
+							<label for="cUsuario">Usuario</label><br>
+							<input type="text" name="usuario" id="cUsuario" size="30" maxlength="40" placeholder="Seu nome de usuario">
+						<p>
+							<label for="cMailCad">E-mail </label><br>
+							<input type="email" name="MailCad" id="cMailCad" size="30" maxlength="40" placeholder="Seu e-mail">
+						</p>
+						<p>
+							<label for="cSenhaCad">Senha</label><br>
+							<input type="password" name="SenhaCad" id="cSenhaCad" size="30" maxlength="15" placeholder="Sua senha">
+						</p>
+						<p>
+							<label for="cConSenha">Confirmar Senha</label><br>
+							<input type="password" name="ConSenha" id="cConSenha" size="30" placeholder="Confirme sua senha">
+						</p>
+				</form>
+				</div>
+			</div>
+		</div>
+		<footer class="rodape">
+			<p>&copy; Copyright - 2018 - <a href="../quemsomos.html" title="Quem Somos">TekaUda</a> - Todos direitos reservados</p>
+		</footer>
+	</div>
+</body>
+</html>
